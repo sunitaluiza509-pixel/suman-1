@@ -1,0 +1,33 @@
+p{
+
+      background-color: aqua;
+}
+*{
+
+  font-variant: small-caps;
+
+}
+.one
+{
+    color: black;
+}
+#two{
+
+   background-color: rgb(116, 9, 216);
+
+}
+h2,h3{
+  color: blue;
+}
+a
+ [target="_blank"]
+ {
+  color: blueviolet;
+} 
+h4
+{
+background-color: coral;
+}
+h5 {
+   color:chocolate; 
+}
