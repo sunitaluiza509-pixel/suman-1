@@ -111,3 +111,65 @@ switch(trafficlight)
 console.log(message)
 
 
+let day="4";
+let message=""
+
+switch(day)
+{
+    case "1":
+    message="sunday";
+    break;
+    case "2":
+    message="monday";
+    break;
+    case "3":
+    message="tuesday";
+    break;
+    case "4":
+    message="wednesday";
+    break;
+    case "5":
+    message="thursday";
+    break;
+    case "6":
+    message="friday";
+    default:
+    message="invaild day";
+    
+}
+console.log(message)
+
+for(let i=0;i<6;i++)
+console.log(i)
+
+let num=0;
+while (num<=20)
+{
+    console.log(num);
+    num++;
+}
+
+// odd numbers
+let num=1;
+while (num<=20)
+{
+    console.log(num);
+    num+=2;
+}
+
+/// even numbers
+let num=0;
+while (num<=20)
+{
+    console.log(num);
+    num+=2;
+}
+
+// do while loop
+let i=5;
+do
+{
+    console.log(i);
+    i--;
+}
+while (i >0)

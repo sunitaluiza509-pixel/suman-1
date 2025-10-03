@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            queryselector example
+        </title>
+    </head>
+    <body>
+        <h1 id="title">hello world</h1>
+        <p class="message">this is a paragraph</p>
+        <button id="btn">click me</button>
+
+        <script>
+            // select element bt id
+            const heading = document.querySelector("#title");
+            console.log(heading.textContent);//output: hello world
+
+            // select element by class
+            const paragraph = document.querySelector(".message");
+            console.log(paragrahp.textContent);//output:this is a paragraph.
+
+            // add event using qureyselector
+            const botton = document.querySelector("#btn");
+            button.addeventlistener("click",function(){
+                heading.textcontent ="you clicked this button!";
+                paragraph.textContent="i changed the text";
+
+            }); 
+        </script>
+    </body>
+</html>
